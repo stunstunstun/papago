@@ -16,7 +16,7 @@
 $ pip install papagotrans
 ```
 
-#### Download and Install
+#### or Download and Install
 
 ```
 $ git clone https://github.com/stunstunstun/papagotrans.git
@@ -24,14 +24,17 @@ $ cd papagotrans
 $ python setup.py install
 ```
 
-#### Quick Start
+
+## Usage
+
+#### Prerequisite
 
 ```
 export CLIENT_ID='Your application's client id'
 export CLIENT_SECRET='Your application's client secret'
 ```
 
-#### Usage
+#### Basic Usage
 
 ```bash
 >>> from papagotrans import Translator
