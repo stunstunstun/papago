@@ -24,7 +24,6 @@ var/
 .installed.cfg
 *.egg
 test.sh
-deploy.sh
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
