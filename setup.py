@@ -10,7 +10,7 @@ def long_description():
 python_requires = ['requests']
 
 setup(name='papagotrans',
-      version='0.1.1',
+      version='0.1.2',
       description='PAPAGO translate API with Python',
       long_description=long_description(),
       url='https://github.com/stunstunstun/papagotrans',

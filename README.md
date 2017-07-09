@@ -39,7 +39,7 @@ export CLIENT_SECRET='Your application's client secret'
 >>> response = translator.translate('안녕하세요')
 >>> response = translator.translate('안녕하세요', 'ko', 'en')
 >>> print(response)
-Response(code=0, message=None, text=Hello., source=ko, target=en)
+Response(code=0, message=None, text=Hello., source=ko)
 >>> 
 ```
 
