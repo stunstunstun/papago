@@ -1,4 +1,5 @@
-#-*- coding: utf-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import os
 import unittest
 from papagotrans import Translator
@@ -32,4 +33,3 @@ class TestTranslator(unittest.TestCase):
         Test that invalid source languages
         """
         self.assertRaises(ValueError, self.translator.translate, 'Hola', 'es', 'en')
-
