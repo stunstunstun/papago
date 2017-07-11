@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/stunstunstun/papagotrans.svg?branch=master)](https://travis-ci.org/stunstunstun/papagotrans)
 
-# PAPAGO Translate API with Python (Unofficial)
+# PAPAGO Translate API with Python
 
 네이버에서 제공하는 파파고 기계 번역 API를 Python을 통해 제공하는 모듈입니다. 파파고는 입력된 텍스트를 다른 나라 언어(영어, 일본어, 중국어)로 번역한 텍스트로 출력해주는 REST API 입니다. 
 
