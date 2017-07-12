@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 import unittest
-from papagotrans import Translator
+from papago import Translator
 
 
 class TestTranslator(unittest.TestCase):

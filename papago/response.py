@@ -1,4 +1,4 @@
-from papagotrans.compat import json
+from papago.compat import json
 
 
 class Response:

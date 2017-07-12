@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from tests.compat import json
-from papagotrans.response import Response
+from papago.response import Response
 
 
 class TestResponse(unittest.TestCase):

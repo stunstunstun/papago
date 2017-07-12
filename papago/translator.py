@@ -1,6 +1,6 @@
 import requests
-from papagotrans.response import Response
-from papagotrans.contants import PAPAGO_API_URL, DEFAULT_CONTENT_TYPE, LANGUAGES
+from papago.response import Response
+from papago.contants import PAPAGO_API_URL, DEFAULT_CONTENT_TYPE, LANGUAGES
 
 
 class Translator:

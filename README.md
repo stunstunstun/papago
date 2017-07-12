@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/stunstunstun/papagotrans.svg?branch=master)](https://travis-ci.org/stunstunstun/papagotrans)
 
-# PAPAGO Translate API with Python (Unofficial)
+# PAPAGO Translate API with Python
 
 네이버에서 제공하는 파파고 기계 번역 API를 Python을 통해 제공하는 모듈입니다. 파파고는 입력된 텍스트를 다른 나라 언어(영어, 일본어, 중국어)로 번역한 텍스트로 출력해주는 REST API 입니다. 
 
@@ -13,14 +13,14 @@
 #### PyPI
 
 ```bash
-$ pip install papagotrans
+$ pip install papago
 ```
 
 #### or Download and Install
 
 ```
-$ git clone https://github.com/stunstunstun/papagotrans.git
-$ cd papagotrans
+$ git clone https://github.com/stunstunstun/papago.git
+$ cd papago
 $ python setup.py install
 ```
 
@@ -37,7 +37,7 @@ export CLIENT_SECRET='Your application's client secret'
 #### Basic Usage
 
 ```bash
->>> from papagotrans import Translator
+>>> from papago import Translator
 >>> translator = Translator(os.environ['CLIENT_ID'], os.environ['CLIENT_SECRET'])
 >>> response = translator.translate('안녕하세요')
 >>> response = translator.translate('안녕하세요', 'ko', 'en')

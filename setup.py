@@ -10,11 +10,11 @@ def long_description():
         readme = f.read()
     return readme
 
-setup(name='papagotrans',
-      version='0.1.2',
+setup(name='papago',
+      version='0.1.0',
       description='PAPAGO translate API with Python',
       long_description=long_description(),
-      url='https://github.com/stunstunstun/papagotrans',
+      url='https://github.com/stunstunstun/papago',
       author='stunstunstun',
       author_email='agileboys.com@gmail.com',
       license='MIT',
