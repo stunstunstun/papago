@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/stunstunstun/papagotrans.svg?branch=master)](https://travis-ci.org/stunstunstun/papagotrans)
+[![Build Status](https://travis-ci.org/stunstunstun/papago.svg?branch=master)](https://travis-ci.org/stunstunstun/papago)
 
 # PAPAGO Translate API with Python
 

@@ -29,6 +29,6 @@ class Response:
 
     def __unicode__(self):
         return u'Response(code={code}, message={message}, text={text}, source={source})'.format(
-            code=self.code, message=self.message, text=self.text, src=self.source)
+            code=self.code, message=self.message, text=self.text, source=self.source)
 
 
