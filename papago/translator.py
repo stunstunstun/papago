@@ -23,6 +23,8 @@ class Translator:
         """
         if source not in LANGUAGES:
             raise ValueError('This source languages is not supported')
+        if target not in LANGUAGES:
+            raise ValueError('This target languages is not supported')
         payload = {'text': text, 'source': source, 'target': target}
         headers = {'X-Naver-Client-Id': self.client_id,
                    'X-Naver-Client-Secret': self.client_secret,
