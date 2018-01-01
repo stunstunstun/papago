@@ -1,4 +1,6 @@
 papago
 ===========
 
-PAPAGO translate API with Python
+Papago translation API with Python
+
+- https://github.com/stunstunstun/papago

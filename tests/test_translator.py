@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 import unittest
-from papago import Translator
+from papago.translator import Translator
 
 
 class TestTranslator(unittest.TestCase):
@@ -32,4 +32,10 @@ class TestTranslator(unittest.TestCase):
         """
         Test that invalid source languages
         """
-        self.assertRaises(ValueError, self.translator.translate, 'Hola', 'es', 'en')
+        self.assertRaises(ValueError, self.translator.translate, 'مرحبا', 'ar', 'en')
+
+    def test_translate_invalid_target(self):
+        """
+        Test that invalid target languages
+        """
+        self.assertRaises(ValueError, self.translator.translate, 'Hello', 'en', 'ar')

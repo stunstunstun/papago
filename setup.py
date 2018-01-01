@@ -11,7 +11,7 @@ def long_description():
     return readme
 
 setup(name='papago',
-      version='0.1.1',
+      version='1.0.0',
       description='PAPAGO translate API with Python',
       long_description=long_description(),
       url='https://github.com/stunstunstun/papago',
